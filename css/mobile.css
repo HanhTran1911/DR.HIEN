@@ -1,0 +1,489 @@
+@media screen and (max-width: 480px) {
+    .logo {
+        position: absolute;
+        left: 5px;
+        top: 5px;
+
+    }
+
+    .img_logo {
+        width: 55px;
+    }
+
+    .fz-10 {
+        font-size: 10px;
+    }
+
+    .display_none {
+        display: none;
+    }
+
+    .call {
+        width: 76px;
+        height: 45px;
+    }
+
+    .calling {
+        font-size: 13px;
+    }
+
+    .border_bottom {
+        left: 6px;
+        top: 11px;
+    }
+
+    .border_bottom2 {
+        right: 7px;
+        bottom: 12px;
+
+    }
+
+    .search {
+        padding-top: 10px;
+    }
+
+    .home {
+        padding-top: 4px;
+    }
+
+    .pages {
+        padding-top: 8px;
+    }
+
+    /* slide */
+    .name {
+        padding-top: 40px;
+        padding-left: 40px;
+    }
+
+    .drHien {
+        width: 120px;
+    }
+
+    .dobong {
+        left: 41px;
+        top: 60px;
+        width: 119px;
+    }
+
+    .style__content {
+        font-size: 21px;
+        margin-left: 28px;
+        margin-top: 2px;
+    }
+
+    .style__content1 {
+        font-size: 29px;
+        margin-top: -14px;
+        margin-left: 8px;
+    }
+
+    .map-pin {
+
+        padding: 3px;
+        width: 19px;
+    }
+
+    .address,
+    .email {
+        width: 272px;
+        margin-left: 14px;
+    }
+
+    .email {
+        margin-top: 0;
+    }
+
+    .info_address,
+    .info-email {
+        margin-left: 6px;
+        font-size: 10px;
+    }
+
+    .miduSpa {
+        width: 230px;
+    }
+
+    .contact {
+        margin-left: 31px;
+        margin-top: 6px;
+    }
+
+    .right_arrows {
+        width: 22px;
+    }
+
+    .lienHe {
+        font-size: 10px;
+        margin-left: 7px;
+    }
+
+    .phone {
+        font-size: 10px;
+        padding: 5px 11px;
+        margin-left: 7px;
+    }
+
+    .container-custom {
+        margin: 0;
+    }
+
+    /* giới thiệu dịch vụ */
+    .branch_leaves {
+        width: 46px;
+    }
+
+    .style-introduce {
+        padding: 15px 0;
+    }
+
+    .name_intro h2 {
+        font-size: 13px;
+        margin-left: 10px;
+        margin-bottom: 0;
+    }
+
+    .style_hr {
+        width: 83px;
+        margin-left: 56px;
+    }
+
+    .container-custom2 {
+        margin-left: 0px;
+    }
+
+    .style-introduce {
+        display: block;
+    }
+
+    .position_sst1 {
+        bottom: 20px;
+        left: 0px;
+    }
+
+    .stt1,
+    .stt2 {
+        padding: 3px;
+        width: 57px;
+        height: 58px;
+    }
+
+    .service1,
+    .service2,
+    .service3,
+    .service4 {
+        width: 171px;
+        height: 139px;
+    }
+
+    .position_sst1 h1 {
+        left: 20px;
+        top: 5px;
+    }
+
+    .stt1 h1,
+    .stt2 h1 {
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    .position_title {
+        top: 38px;
+        left: 44px;
+    }
+
+    .title {
+        font-size: 11px;
+    }
+
+    .discript {
+        top: 69px;
+        font-size: 8px;
+        left: 61px;
+    }
+
+    .position_sst2 {
+        right: 14px;
+        top: 12px;
+    }
+
+    .position_title2 {
+        top: 38px;
+        left: 44px;
+    }
+
+    .discript2 {
+        top: 67px;
+        font-size: 8px;
+        right: 61px;
+        left: 27px;
+    }
+
+    .service3 {
+        margin-left: 22px;
+    }
+
+    .position_sst3 {
+        bottom: 17px;
+        left: 17px;
+    }
+
+    .position_title3 {
+        top: 39px;
+        left: 46px;
+    }
+
+    .discript3 {
+        top: 65px;
+        font-size: 8px;
+        left: 82px;
+    }
+
+    .service4 {
+        margin-left: 35px;
+    }
+
+    .position_sst4 {
+        right: 12px;
+        top: 11px;
+    }
+
+    .position_title4 {
+        position: absolute;
+        top: 32px;
+        left: 19px;
+        right: 84px
+    }
+
+    .position_sst4 {
+        right: 12px;
+        top: 11px;
+    }
+
+    .discript4 {
+        font-size: 8px;
+        left: 12px;
+        right: 21px;
+        bottom: 30px;
+    }
+
+    .mayMoc {
+        width: 380px;
+    }
+
+    /* kết nối và đồng hành */
+    .bs_phamly {
+        width: 230px;
+    }
+
+    .doctor {
+        margin-left: 0px;
+    }
+
+    .content-companion {
+        margin-top: 33px;
+    }
+
+    .content-companion h4 {
+        line-height: 18px;
+        font-size: 14px;
+
+    }
+
+    .content-companion h2 {
+        line-height: 18px;
+        font-size: 14px;
+    }
+
+    .hr_companion {
+        margin-left: 0;
+        margin-top: 12px;
+        margin-bottom: 17px;
+    }
+
+    .content-companion h5 {
+        font-size: 10px;
+    }
+
+    .content-companion h5 {
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 13px;
+    }
+
+    /* phản hồi từ khách hàng */
+    .feedback-all {
+        padding-top: 18px;
+        display: block;
+    }
+
+    .feedback1 {
+        align-items: flex-start;
+        width: 320px;
+    }
+
+    .style_fb1 {
+        font-size: 9px;
+    }
+
+    .img-feedbacker {
+        width: 156px;
+        background-size: cover;
+        height: 135px;
+    }
+
+    .ellipse6 {
+        width: 100px;
+        height: 100px;
+    }
+
+    .content_review {
+        font-size: 9px;
+    }
+
+    .review {
+        width: 291px;
+        margin-bottom: 30px;
+    }
+
+    .name_review {
+        font-size: 11px;
+    }
+
+    .feedback-fiture {
+        text-align: center;
+        padding-top: 28px;
+    }
+
+    .img_feedback {
+        width: 300px;
+    }
+
+    /* khách hàng để lại thông tin */
+    .delaiinfo {
+        font-size: 13px;
+        padding-left: 15px;
+    }
+
+    .information {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .email-customer {
+        margin-top: 30px;
+        width: 247px;
+        height: 84px;
+    }
+
+    input {
+        width: 188px;
+        height: 44px;
+    }
+
+    input::placeholder {
+        font-style: italic;
+        padding-left: 10px;
+        font-weight: 100;
+        font-size: 13px;
+    }
+
+    .btn_gui {
+        width: 86px;
+        height: 42px;
+        margin-top: 30px;
+    }
+
+    .datlich {
+        right: 64px;
+        display: flex;
+    }
+
+    .name_datlich {
+        font-size: 13px;
+        margin-bottom: 0;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+
+    .icon_fast {
+        width: 20px;
+        height: 20px;
+        margin-top: 5px;
+    }
+
+    .btn_datNgay {
+
+        width: 98px;
+        font-size: 13px;
+        height: 30px;
+        border-radius: 30px;
+        margin-left: 9px;
+    }
+
+
+    /* tin tức */
+    .news{
+        margin-bottom: 20px;
+    }
+    .new-move {
+
+        margin: 0 10px;
+    }
+    .new {
+        width: 200px;
+        height: 200px;
+    }
+    .coating{
+        width: 200px;
+        padding: 10px;
+        height: 200px;
+    }
+    .content-news {
+        font-size: 10px;
+        bottom: 7px;
+        margin-right: 5px;
+    }
+    .title_news {
+        font-size: 10px;
+        bottom: 76px;
+        margin-right: 10px;
+    }
+
+    /* footer */
+   
+    .logo-ft{
+        margin-left: 10px;
+    }
+    .item{
+        font-size: 7px;
+        margin: 0 3px;
+    }
+    .logo-app1
+    {
+        width: 15px;
+    height: 15px;
+    margin: 0 2px;
+    }
+    .saler {
+        margin-left: -30px;
+        margin-right: 10px;
+    }
+    .hr_ft{
+        margin-left: -27px;
+        margin-bottom: 11px;
+        margin-top: 12px;
+        margin-right: 10px;
+    }
+    .ft-bot {
+        margin-left: -27px;
+        flex-direction: column;
+    }
+    .bot-right {
+      justify-content: flex-start;
+    }
+    .bot-left{
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+}

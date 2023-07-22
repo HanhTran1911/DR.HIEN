@@ -1,0 +1,740 @@
+/* header */
+header {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.flex-custom {
+    display: flex;
+}
+
+.container-custom {
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.text-deco {
+    text-decoration: none;
+
+}
+
+.color-black {
+    color: black;
+}
+
+.color-white {
+    color: white;
+}
+
+.bg-yellor {
+    background-color: #FFCA0E;
+}
+
+.font-500 {
+    font-weight: 500;
+}
+
+.font-700 {
+    font-weight: 700;
+}
+
+.fz-70 {
+    font-size: 70px;
+}
+
+.fz-14 {
+    font-size: 14px;
+}
+
+.font-fa {
+    font-family: 'Montserrat', 'Lora', sans-serif;
+}
+
+.font-script {
+
+    font-family: 'Luxurious Script', 'Lora', serif, cursive;
+}
+
+.ju-content-betwen {
+    justify-content: space-between;
+}
+
+.container-custom2 {
+    margin-left: 34px;
+}
+
+/* logo */
+.logo {
+
+    position: absolute;
+    left: 100px;
+    top: 16px;
+}
+
+/* home */
+.home {
+    padding-top: 28px;
+}
+
+/* page */
+.pages {
+    padding-top: 28px;
+}
+
+.page {
+    margin: 0 12px;
+}
+
+/* search */
+.search {
+    padding-top: 28px;
+    margin: 0 20px;
+}
+
+/* call */
+.call {
+    width: 120px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.border_bottom {
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    width: 17px;
+    border-top: #f8f8f8 solid 1px;
+
+}
+
+.border_bottom2 {
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    width: 29px;
+    border-top: #f8f8f8 solid 1px;
+
+}
+
+/* slide */
+.silde {
+    background: url('../image/lider.png');
+    background-size: cover;
+    background-repeat: repeat;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-slide {
+    padding-bottom: 70px;
+}
+
+.name {
+
+    padding-top: 94px;
+    padding-left: 194px;
+    position: relative;
+}
+
+.dobong {
+    position: absolute;
+    left: 198px;
+    top: 137px;
+}
+
+/* content */
+.gradient-text {
+    font-size: 48px;
+    /* Điều chỉnh kích thước chữ theo nhu cầu */
+    background: linear-gradient(to bottom, #5DC9F0, #0080BE 50%, #0080BE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.style__content {
+    font-size: 65px;
+    margin-left: 146px;
+    margin-top: 10px;
+}
+
+.style__content1 {
+    font-size: 85px;
+    margin-top: -40px;
+    margin-left: 102px;
+}
+
+/* address */
+.map-pin {
+    border-radius: 50%;
+    border: 1px solid #ffca0e;
+    padding: 10px;
+}
+
+.address,
+.email {
+    margin-left: 137px;
+    display: flex;
+    align-items: center;
+}
+
+.info_address,
+.info-email {
+    margin-left: 10px;
+    font-size: 22px;
+    color: #ffca0e;
+}
+
+.email {
+    margin-top: 20px;
+}
+
+.contact {
+    margin-left: 333px;
+    margin-top: 27px;
+    display: flex;
+    align-items: center;
+
+}
+
+.lienHe {
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 18px;
+    background: linear-gradient(to bottom, #5DC9F0, #0080BE 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.phone {
+    font-size: 25px;
+    font-weight: 600;
+    color: #f8f8f8;
+    background: #0080BE;
+    border-radius: 27px;
+    padding: 7px 30px;
+    margin-left: 20px;
+    background: linear-gradient(to left, #0080BE, #5DC9F0, #0080BE);
+}
+
+.right-slide {
+    position: relative;
+}
+
+.miduSpa {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/* next page */
+.nextPage {
+    position: relative;
+}
+
+.next-right {
+    position: absolute;
+    right: 0;
+    top: 220px;
+}
+
+.next-left {
+    position: absolute;
+    left: 0;
+    top: 250px;
+}
+
+/* giới thiệu */
+.introduce {
+
+    background: url('../image/gt-dv.png');
+    background-size: cover;
+}
+
+.introduce_right {
+    margin-right: 50px;
+}
+
+.style-introduce {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.name_intro {
+    display: flex;
+    align-items: center;
+
+}
+
+.name_intro h2 {
+    margin-left: 20px;
+    background: linear-gradient(to bottom, #5DC9F0, #0080BE 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.style_hr {
+    width: 160px;
+    margin-left: 130px;
+    margin-bottom: 0;
+    margin-top: 0;
+    background-color: rgba(3, 163, 255, 0.986);
+    /* Màu nền cho đường kẻ */
+    box-shadow: 0 0 5px 3px rgba(83, 218, 207, 0.5);
+    /* Tạo hiệu ứng đường viền mờ */
+    height: 3px;
+    border-top: none;
+}
+
+.hr_companion {
+    margin-left: 0;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.introduces {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px 0;
+    margin-top: 20px;
+}
+
+.stt1,
+.stt2 {
+    background-color: white;
+    border-radius: 50%;
+    padding: 20px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+.position_sst1 {
+    position: absolute;
+    bottom: 15px;
+    left: 0px;
+}
+
+.stt1 h1,
+.stt2 h1 {
+    font-weight: bold;
+    font-size: 49px;
+    z-index: 1;
+    -webkit-text-fill-color: transparent;
+    /* Làm màu chữ trở thành trong suốt */
+    -webkit-background-clip: text;
+    /* Áp dụng hình ảnh cho màu chữ */
+    background-image: url('../image/1_2.png');
+    /* Đường dẫn đến hình ảnh */
+    background-size: cover;
+    /* Tự động điều chỉnh kích thước hình ảnh */
+
+}
+
+.position_sst1 h1 {
+    position: absolute;
+    left: 41px;
+    top: 20px;
+}
+
+.service1,
+.service2,
+.service3,
+.service4 {
+    display: flex;
+    background: url('../image/DV-2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 288px;
+    height: 216px;
+    position: relative;
+}
+
+.title_discrip {
+    position: relative;
+    display: contents;
+}
+
+.title {
+    font-size: 19px;
+    font-weight: 600;
+    color: #0080BE;
+    font-style: italic;
+}
+
+.position_title {
+    position: absolute;
+    top: 65px;
+    left: 77px;
+}
+
+.discript {
+    position: absolute;
+    top: 116px;
+    font-size: 13px;
+    left: 114px;
+}
+
+/* position cho div stt2 */
+.position_sst2 {
+    position: absolute;
+    right: 21px;
+    top: 25px;
+}
+
+/* position cho thẻ h1 ở stt2 */
+.stt2 h1 {
+    position: absolute;
+    left: 41px;
+    top: 20px;
+}
+
+.position_title2 {
+    position: absolute;
+    top: 70px;
+    left: 65px;
+}
+
+.discript2 {
+    position: absolute;
+    top: 115px;
+    font-size: 13px;
+    text-align: end;
+    right: 106px;
+    left: 59px;
+}
+
+/* position cho div stt3 */
+.position_sst3 {
+    position: absolute;
+    bottom: 15px;
+    left: 40px;
+}
+
+/* position cho thẻ h1 ở stt3 */
+.stt3 h1 {
+    position: absolute;
+    left: 41px;
+    top: 20px;
+}
+
+.service3 {
+    margin-left: 65px;
+}
+
+.position_title3 {
+    position: absolute;
+    top: 59px;
+    left: 103px;
+}
+
+.discript3 {
+    position: absolute;
+    top: 105px;
+    font-size: 13px;
+    left: 155px;
+}
+
+/* position cho div stt4 */
+.position_sst4 {
+    position: absolute;
+    right: 13px;
+    top: 25px;
+}
+
+/* position cho thẻ h1 ở stt3 */
+.stt4 h1 {
+    position: absolute;
+    left: 41px;
+    top: 20px;
+}
+
+.position_title4 {
+    position: absolute;
+    top: 56px;
+    left: 37px;
+    right: 138px;
+    text-align: end;
+}
+
+.discript4 {
+    position: absolute;
+    /* top: 105px; */
+    font-size: 13px;
+    left: 34px;
+    right: 40px;
+    bottom: 27px;
+    text-align: end;
+}
+
+.service4 {
+    margin-left: 50px;
+}
+
+/* kết nối và đồng hành */
+.companion {
+    background: url('../image/Rectangle7.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content-companion {
+    margin-top: 63px;
+
+}
+
+.content-companion h4 {
+    line-height: 35px;
+    background: linear-gradient(to bottom, #5DC9F0, #0080BE 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.content-companion h2 {
+    background: linear-gradient(to bottom, #5DC9F0 30%, #0080BE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.content-companion h5 {
+    font-weight: 600;
+    font-size: 24px;
+    background: linear-gradient(to bottom, #5DC9F0, #0080BE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 35px;
+}
+
+.doctor {
+    margin-left: 100px;
+}
+
+/* phản hồi từ khách hàng */
+.feedback {
+    padding: 40px 0;
+}
+
+.feedback1 {
+    align-items: flex-start;
+    width: 550px;
+}
+
+.feedback-all {
+    padding-top: 50px;
+}
+
+.img-feedbacker {
+    background: url('../image/1.png');
+    width: 252px;
+    height: 232px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.review {
+    width: 460px;
+    padding: 0 16px;
+}
+
+.name_review {
+    text-align: center;
+    font-weight: 600;
+    background: linear-gradient(to bottom, #5DC9F0, #0080BE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.feedback2 {
+    align-items: center;
+    margin-top: 30px;
+}
+
+/* Khách hàng để lại thông tin */
+.infor-custommer {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    position: relative;
+
+}
+
+input {
+    width: 200px;
+    height: 56px;
+    background-color: transparent;
+    border: 2px solid #f8f8f8;
+}
+
+input::placeholder {
+    font-family: 'Montserrat', 'Lora', sans-serif;
+    color: #f8f8f8;
+    font-style: italic;
+    padding-left: 10px;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.email-customer {
+    background: url('../image/2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 270px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delaiinfo {
+    font-size: 24px;
+    font-weight: 500;
+    background: linear-gradient(to bottom, #5DC9F0, #0080BE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn_gui {
+    color: #f8f8f8;
+    background: linear-gradient(to bottom, #5DC9F0, #0080BE);
+    border: none;
+    width: 110px;
+    height: 56px;
+    border-radius: 5px;
+}
+
+.information {
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.btn_datNgay {
+    font-family: 'Montserrat', 'Lora', sans-serif;
+    color: #f8f8f8;
+    background: linear-gradient(to bottom, #5DC9F0, #0080BE);
+    border: none;
+    width: 159px;
+    height: 40px;
+    border-radius: 30px;
+    margin-left: 20px;
+
+}
+
+.datlich {
+    position: absolute;
+    right: 270px;
+    padding-top: 30px;
+}
+
+.name_datlich {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    background: linear-gradient(to bottom, #5DC9F0, #0080BE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* tin tức nổi bât */
+.news {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    overflow: hidden;
+    position: relative;
+}
+
+.new {
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    cursor: pointer;
+    width: 360px;
+    height: 360px;
+
+}
+
+.new-move {
+    transition: transform 0.6s ease;
+    align-items: center;
+}
+
+.title_news {
+    font-size: 19px;
+    font-weight: 600;
+    color: white;
+    position: absolute;
+    bottom: 100px;
+}
+
+.content-news {
+    font-size: 16px;
+    color: #f8f8f8;
+    position: absolute;
+    bottom: 15px;
+
+}
+
+.title_news2 {
+    font-size: 19px;
+    font-weight: 600;
+    color: white;
+    position: absolute;
+    bottom: 140px;
+}
+
+.content-news2 {
+    font-size: 16px;
+    color: #f8f8f8;
+    position: absolute;
+    bottom: 15px;
+}
+
+.coating {
+    padding: 0 19px;
+    position: relative;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0.8));
+    width: 360px;
+    height: 360px;
+}
+
+/* footer */
+.item {
+    text-decoration: none;
+    background: linear-gradient(to bottom, #5DC9F0, #0080BE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bot-right {
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+.ft-bot {
+    margin-left: 20px;
+}
+.logo-app1{
+    margin: 0 6px ;
+}
+.hr_ft{
+    margin-left: 20px;background-color: #1680b6; height: 2px; color: #0080BE; margin-bottom: 25px;
+      margin-top: 25px;
+}
