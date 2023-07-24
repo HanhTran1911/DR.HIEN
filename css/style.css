@@ -9,6 +9,10 @@ p {
     margin-bottom: 0;
 }
 
+body {
+    width: 1349px;
+}
+
 .flex-custom {
     display: flex;
 }
@@ -78,6 +82,7 @@ p {
     position: absolute;
     left: 100px;
     top: 16px;
+    z-index: 1;
 }
 
 /* home */
@@ -130,13 +135,14 @@ p {
 }
 
 /* slide */
-.silde {
+.slide {
     background: url('../image/lider.png');
     background-size: cover;
     background-repeat: repeat;
     display: flex;
     justify-content: space-between;
 }
+
 
 .left-slide {
     padding-bottom: 70px;
@@ -231,12 +237,14 @@ p {
 
 .right-slide {
     position: relative;
+
 }
 
 .miduSpa {
-    position: absolute;
+    /* position: absolute;
     right: 0;
-    bottom: 0;
+    bottom: 0; */
+    margin-top: 80px;
 }
 
 /* next page */
@@ -656,6 +664,7 @@ input:focus {
 .news {
     margin-top: 100px;
     margin-bottom: 100px;
+    margin-left: 50px;
     overflow: hidden;
     position: relative;
 }
@@ -731,10 +740,16 @@ input:focus {
 .ft-bot {
     margin-left: 20px;
 }
-.logo-app1{
-    margin: 0 6px ;
+
+.logo-app1 {
+    margin: 0 6px;
 }
-.hr_ft{
-    margin-left: 20px;background-color: #1680b6; height: 2px; color: #0080BE; margin-bottom: 25px;
-      margin-top: 25px;
+
+.hr_ft {
+    margin-left: 20px;
+    background-color: #1680b6;
+    height: 2px;
+    color: #0080BE;
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
