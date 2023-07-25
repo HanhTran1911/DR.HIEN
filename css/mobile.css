@@ -59,7 +59,9 @@
         padding-top: 40px;
         padding-left: 40px;
     }
-
+    .next-right {
+        top: 118px;
+    }
     .drHien {
         width: 120px;
     }
@@ -106,6 +108,9 @@
 
     .miduSpa {
         width: 230px;
+        position: absolute;
+        right: -68px;
+        bottom: -1px;
     }
 
     .contact {
