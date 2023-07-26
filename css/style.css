@@ -11,6 +11,8 @@ p {
 
 body {
     width: 1349px;
+    margin: 0 auto;
+    overflow-x: hidden;
 }
 
 .flex-custom {
@@ -133,16 +135,44 @@ body {
     border-top: #f8f8f8 solid 1px;
 
 }
-
+.menu{
+    display: none;
+}
 /* slide */
+.slider{
+    position: relative;
+}
+@keyframes slideAnimation1 {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  @keyframes slideAnimation2 {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
 .slide {
     background: url('../image/lider.png');
     background-size: cover;
     background-repeat: repeat;
     display: flex;
     justify-content: space-between;
+    width: 1349px;
 }
 
+#slide1{
+    
+}
+#slide2{
+}
 
 .left-slide {
     padding-bottom: 70px;
@@ -181,6 +211,7 @@ body {
     margin-top: -40px;
     margin-left: 102px;
 }
+
 
 /* address */
 .map-pin {
@@ -256,14 +287,35 @@ body {
     position: absolute;
     right: 0;
     top: 220px;
+    animation: rightDir 1s infinite;
 }
 
 .next-left {
     position: absolute;
     left: 0;
-    top: 250px;
+    top: 220px;
+    animation: leftDir 1s infinite;
 }
+@keyframes rightDir {
 
+    0%,
+    to {
+        transform: translatex(-25%)
+    }
+
+    25% {
+        transform: translateX(-10%);
+    }
+}
+@keyframes leftDir {
+
+    0% {
+        transform: translatex(10%);
+    }
+    100%, 25% {
+        transform: translateX(30%);
+    }
+}
 /* giới thiệu */
 .introduce {
 
@@ -590,7 +642,6 @@ input::placeholder {
     font-family: 'Montserrat', 'Lora', sans-serif;
     color: #f8f8f8;
     font-style: italic;
-    padding-left: 10px;
     font-weight: 100;
     font-size: 16px;
 }
@@ -598,7 +649,10 @@ input::placeholder {
 input:focus {
     outline: none;
 }
-
+input[type="text"] {
+    color: #f8f8f8;
+    padding-left: 20px;
+  }
 .email-customer {
     background: url('../image/2.png');
     background-size: cover;
@@ -626,6 +680,9 @@ input:focus {
     height: 56px;
     border-radius: 5px;
 }
+.btn_gui:hover{
+    background: linear-gradient(to bottom, #f05da7, #be004f);
+}
 
 .information {
     align-items: center;
@@ -644,7 +701,9 @@ input:focus {
     margin-left: 20px;
 
 }
-
+.btn_datNgay:hover{
+    background: linear-gradient(to right, #f05da7, #be004f);
+}
 .datlich {
     position: absolute;
     right: 270px;
@@ -661,6 +720,12 @@ input:focus {
 }
 
 /* tin tức nổi bât */
+.new_left{
+animation: leftDir 1s infinite;
+}
+.new_right{
+    animation: rightDir 1s infinite;
+}
 .news {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -700,7 +765,22 @@ input:focus {
     bottom: 15px;
 
 }
+.coating {
+    padding: 0 19px;
+    position: relative;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0.8));
+    width: 360px;
+    height: 360px;
+}
 
+.active{
+    width: 444px;
+    height: 444px;
+}
+.active_coating{
+    width: 444px;
+    height: 444px;
+}
 .title_news2 {
     font-size: 19px;
     font-weight: 600;
@@ -716,13 +796,6 @@ input:focus {
     bottom: 15px;
 }
 
-.coating {
-    padding: 0 19px;
-    position: relative;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0.8));
-    width: 360px;
-    height: 360px;
-}
 
 /* footer */
 .item {

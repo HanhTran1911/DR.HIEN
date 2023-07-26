@@ -1,51 +1,32 @@
-// const slidesContainer = document.querySelector('.slideShow');
-// const slides = document.querySelectorAll('.slide');
-// const nextButton = document.querySelector('.next-right');
+// click vào sider
+document.addEventListener('DOMContentLoaded' ,function () {
+    const iconLeft=document.querySelector('#iconLeft');
+    const iconRight=document.querySelector('#iconRight');
+    const slide1 = document.querySelector('#slide1');
+    const slide2 = document.querySelector('#slide2');
 
-// nextButton.addEventListener('click', () => {
-//     const activeSlide = document.querySelector('.slide.activi');
-//     const nextSlide = activeSlide.nextElementSibling || slides[0];
-  
-//     activeSlide.classList.remove('activi');
-//     nextSlide.classList.add('activi');
-  
-//     slidesContainer.style.transform = `translateX(-${nextSlide.offsetLeft}px)`;
-// });
+    iconLeft.addEventListener('click' , function (event) {
+        if(slide1.style.display='flex'){
+            slide1.style.display='none';
+            slide2.style.display='flex';
+        
+        }
+        else {
+            slide2.style.display='none';
+            slide1.style.display='flex'
+        }
+    });
+    iconRight.addEventListener('click' , function (event) {
+        if(slide2.style.display='flex'){
+            slide1.style.display='flex';
+            slide2.style.display='none';
+        }
+        else {
+            slide2.style.display='flex';
+            slide1.style.display='none'
+        }
+    });
+});
 
-// // Ẩn các slide nếu cần thiết
-// if (slides.length > 1) {
-//   slides.forEach((slide, index) => {
-//     if (index !== 0) {
-//       slide.classList.add('hidden');
-//     }
-//   });
-// }
 
-// di chuyển các tin tức
-// const newMove = document.querySelector(".new-move");
-// const news = document.querySelectorAll(".new");
-// let currentIndex =2;
-
-// function slideRight() {
-//   currentIndex = (currentIndex + 1) % news.length;
-//   updateNewPosition();
-// }
-
-// function slideLeft() {
-//   currentIndex = (currentIndex - 1 + news.length) % news.length;
-//   updateNewPosition();
-// }
-// function updateNewPosition() {
-//   const translateXValue = -currentIndex * 20;
-//   newMove.style.transform = `translateX(${translateXValue}%)`;
-// }
-// // Gán sự kiện cho nút trượt qua lại
-// document.addEventListener("DOMContentLoaded", () => {
-//   document.addEventListener("keydown", (event) => {
-//     if (event.key === "ArrowRight") {
-//       slideRight();
-//     } else if (event.key === "ArrowLeft") {
-//       slideLeft();
-//     }
-//   });
-// });
+// click vào tin tức

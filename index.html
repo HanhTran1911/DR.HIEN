@@ -11,7 +11,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
     crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/mobile.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,7 +35,7 @@
       <div class="home">
         <img src="./image/home.png" alt="">
       </div>
-      <div class="pages flex-custom">
+      <div class="pages flex-custom display_none">
         <div class="gioiThieu">
           <a href="#" class="text-deco font-fa fz-14 fz-10 color-black page">GIỚI THIỆU</a>
         </div>
@@ -68,6 +68,25 @@
       <div class="search">
         <img src="./image/search.png" alt="">
       </div>
+      <div class="menu dropdown">
+        <div class="icon  dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-display="static"
+          aria-expanded="false">
+          <i class="fa-solid fa-list"></i>
+        </div>
+        <div class="dropdown-menu dr-content dropdown-menu-start dropdown-menu-lg-end">
+          <div class="flex-custom items-content">
+            <a href="#" class="text-deco font-fa fz-14  fz-12 color-black page">GIỚI THIỆU</a>
+            <a href="#" class="text-deco font-fa fz-14  fz-12 color-black page">KHÁM BỆNH DA</a>
+            <a href="#" class="text-deco font-fa fz-14  fz-12 color-black page">TRỊ MỤN</a>
+            <a href="#" class="text-deco font-fa fz-14  fz-12 color-black page">TRIỆT LÔNG</a>
+            <a href="#" class="text-deco font-fa fz-14  fz-12 color-black page">TRỊ NÁM</a>
+            <a href="#" class="text-deco font-fa fz-14  fz-12 color-black page">NÂNG CƠ</a>
+            <a href="#" class="text-deco font-fa fz-14 fz-12 color-black page">HÌNH ẢNH</a>
+            <a href="#" class="text-deco font-fa fz-14  fz-12 color-black page">TIN TỨC</a>
+            <a href="#" class="text-deco font-fa fz-14   fz-12 color-black page">LIÊN HỆ</a>
+          </div>
+        </div>
+      </div>
       <div class="call bg-yellor ">
         <p class="border_bottom"></p>
         <a href="" class="text-deco font-fa color-white calling ">Gọi Ngay</a>
@@ -76,44 +95,75 @@
     </div>
   </header>
   <!-- slide -->
-  <div class="slide ">
-    <div class="left-slide">
-      <div class="name">
-        <img src="./image/next_left.png" alt="" class="next-left display_none">
-        <img src="./image/drHien.png" alt="" class="drHien">
-        <img src="./image/dobong.png" alt="" class="dobong">
-      </div>
-      <div class="content">
-        <p class="font-script gradient-text style__content">Đẹp - An Toàn - Tự Nhiên</p>
-        <p class="font-script gradient-text style__content1">Nơi phái đẹp - gửi niềm tin</p>
-      </div>
-      <div class="address">
-        <div class="">
-          <img src="./image/map-pin.svg" alt="" class="map-pin">
+  <div class="slider flex-custom">
+    <img src="./image/next_left.png" alt="" class="next-left" id="iconLeft" >
+    <div class="slide " id="slide1" style="display: flex;" >
+      <div class="left-slide">
+        <div class="name">
+          <img src="./image/drHien.png" alt="" class="drHien">
+          <img src="./image/dobong.png" alt="" class="dobong">
         </div>
-        <p class="info_address">Địa chỉ: 38 Ngõ 25, Nguyễn Đình CHiểu, TP.Thái Nguyên</p>
-      </div>
-      <div class="email">
-        <div class="">
-          <img src="./image/mail.png" alt="" class="map-pin">
+        <div class="content">
+          <p class="font-script gradient-text style__content">Đẹp - An Toàn - Tự Nhiên</p>
+          <p class="font-script gradient-text style__content1">Nơi phái đẹp - gửi niềm tin</p>
         </div>
-        <p class="info-email">Email: adminsota@gmail.com</p>
+        <div class="address">
+          <div class="">
+            <img src="./image/map-pin.svg" alt="" class="map-pin">
+          </div>
+          <p class="info_address">Địa chỉ: 38 Ngõ 25, Nguyễn Đình CHiểu, TP.Thái Nguyên</p>
+        </div>
+        <div class="email">
+          <div class="">
+            <img src="./image/mail.png" alt="" class="map-pin">
+          </div>
+          <p class="info-email">Email: adminsota@gmail.com</p>
+        </div>
+        <div class="contact">
+          <img src="./image/right-arrows.png" alt="" class="right_arrows">
+          <p class="lienHe">LIÊN HỆ NGAY</p>
+          <P class="phone">0989 341 318</P>
+        </div>
       </div>
-      <div class="contact">
-        <img src="./image/right-arrows.png" alt="" class="right_arrows">
-        <p class="lienHe">LIÊN HỆ NGAY</p>
-        <P class="phone">0989 341 318</P>
+      <div class="right-slide">
+        <img src="./image/mi-du-spa-1024x475 1.png" alt="" class="miduSpa">
       </div>
     </div>
-    <div class="right-slide">
-      <img src="./image/mi-du-spa-1024x475 1.png" alt="" class="miduSpa">
+    <div class="slide " id="slide2" style="display: none;">
+      <div class="left-slide">
+        <div class="name">
+          <img src="./image/drHien.png" alt="" class="drHien">
+          <img src="./image/dobong.png" alt="" class="dobong">
+        </div>
+        <div class="content">
+          <p class="font-script gradient-text style__content">Đẹp - An Toàn - Tự Nhiên 2</p>
+          <p class="font-script gradient-text style__content1">Nơi phái đẹp - gửi niềm tin</p>
+        </div>
+        <div class="address">
+          <div class="">
+            <img src="./image/map-pin.svg" alt="" class="map-pin">
+          </div>
+          <p class="info_address">Địa chỉ: 38 Ngõ 25, Nguyễn Đình CHiểu, TP.Thái Nguyên</p>
+        </div>
+        <div class="email">
+          <div class="">
+            <img src="./image/mail.png" alt="" class="map-pin">
+          </div>
+          <p class="info-email">Email: adminsota@gmail.com</p>
+        </div>
+        <div class="contact">
+          <img src="./image/right-arrows.png" alt="" class="right_arrows">
+          <p class="lienHe">LIÊN HỆ NGAY</p>
+          <P class="phone">0989 341 318</P>
+        </div>
+      </div>
+      <div class="right-slide">
+        <img src="./image/mi-du-spa-1024x475 1.png" alt="" class="miduSpa">
+      </div>
     </div>
+    <img src="./image/next.png" alt="" class="next-right" id="iconRight" >
 
-    <div class="nextPage">
-      <img src="./image/next.png" alt="" class="next-right">
-    </div>
   </div>
-
   <!-- giới thiệu dịch vụ -->
   <div class="introduce ">
     <div class="container-custom style-introduce">
@@ -317,6 +367,9 @@
     <p class="font-fa" style="text-align: center; padding-bottom: 50px;">Dưới đây là những tin mới nhất của hôm nay!</p>
 
     <div class="flex-custom new-move" style="justify-content: space-between;">
+      <div class="new_left">
+        <i class="fa-solid fa-chevron-right fa-rotate-180" style="font-size: 30px;"></i>
+      </div>
       <div class="new" style="background: url('./image/Rectangle14.png'); background-size: cover;">
         <div class="coating">
           <p class="font-fa title_news">Tổng hợp nhiều hơn 97 hình ảnh spa
@@ -325,9 +378,9 @@
             làm việc. Các bác sĩ tại đây có khả năng điều</p>
         </div>
       </div>
-      <div class="new display_none"
-        style="background: url('./image/Rectangle16.png');background-size: cover; width: 444px; height: 444px;">
-        <div class="coating" style="width: 444px; height: 444px;">
+      <div class="new active display_none"
+        style="background: url('./image/Rectangle16.png');background-size: cover;">
+        <div class="coating active_coating" >
           <p class="font-fa title_news2">Nên trị mụn ở da liễu hay spa? Ở đâu hiệu quả hơn? | Giải đáp, so sánh ưu –
             nhược
             điểm, lưu ý</p>
@@ -345,6 +398,10 @@
             làm
             việc. Các bác sĩ tại đây có khả năng điều</p>
         </div>
+      </div>
+    
+      <div class="new_right">
+        <i class="fa-solid fa-chevron-right" style="font-size: 30px;"></i>
       </div>
     </div>
   </div>
@@ -384,6 +441,8 @@
       </div>
     </div>
   </footer>
+
+ 
 </body>
 
 </html>

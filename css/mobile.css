@@ -1,8 +1,41 @@
 @media screen and (max-width: 480px) {
-    body{
+    body {
         max-width: 425px;
         overflow-x: hidden;
     }
+
+    /* menu */
+    .menu {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    .dr-content {
+
+        border-radius: 0px;
+        border: none;
+       
+    }
+    .items-content{
+        flex-direction: column;
+    }
+    .fz-12{
+        font-size: 12px;
+    }
+    .page {
+        margin: 7px 12px;
+    }
+    .dropdown-menu[data-bs-popper] {
+       
+         margin-top: 0px;
+    }
+
+    .icon {
+        margin-right: 25px;
+    }
+
+    /* header */
     .logo {
         position: absolute;
         left: 5px;
@@ -15,7 +48,7 @@
     }
 
     .fz-10 {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .display_none {
@@ -47,7 +80,7 @@
     }
 
     .home {
-        padding-top: 4px;
+        padding-top: 8px;
     }
 
     .pages {
@@ -59,9 +92,11 @@
         padding-top: 40px;
         padding-left: 40px;
     }
+
     .next-right {
         top: 118px;
     }
+
     .drHien {
         width: 120px;
     }
@@ -109,8 +144,8 @@
     .miduSpa {
         width: 230px;
         position: absolute;
-        right: -68px;
-        bottom: -1px;
+        right: 0px;
+        bottom: 0px;
     }
 
     .contact {
@@ -432,27 +467,32 @@
 
 
     /* tin tức */
-    .news{
+    .news {
         margin-bottom: 20px;
     }
+
     .new-move {
 
         margin: 0 10px;
     }
+
     .new {
         width: 200px;
         height: 200px;
     }
-    .coating{
+
+    .coating {
         width: 200px;
         padding: 10px;
         height: 200px;
     }
+
     .content-news {
         font-size: 10px;
         bottom: 7px;
         margin-right: 5px;
     }
+
     .title_news {
         font-size: 10px;
         bottom: 76px;
@@ -460,38 +500,44 @@
     }
 
     /* footer */
-   
-    .logo-ft{
+
+    .logo-ft {
         margin-left: 10px;
     }
-    .item{
+
+    .item {
         font-size: 7px;
         margin: 0 3px;
     }
-    .logo-app1
-    {
+
+    .logo-app1 {
         width: 15px;
-    height: 15px;
-    margin: 0 2px;
+        height: 15px;
+        margin: 0 2px;
     }
+
     .saler {
         margin-left: -30px;
         margin-right: 10px;
     }
-    .hr_ft{
+
+    .hr_ft {
         margin-left: -27px;
         margin-bottom: 11px;
         margin-top: 12px;
         margin-right: 10px;
     }
+
     .ft-bot {
         margin-left: -27px;
         flex-direction: column;
     }
+
     .bot-right {
-      justify-content: flex-start;
+        justify-content: flex-start;
     }
-    .bot-left{
+
+    .bot-left {
         margin-bottom: 10px;
         margin-right: 10px;
     }
