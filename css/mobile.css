@@ -24,17 +24,22 @@
         font-size: 12px;
     }
     .page {
-        margin: 7px 12px;
+        padding: 7px;
     }
     .dropdown-menu[data-bs-popper] {
        
          margin-top: 0px;
+         left: -20px;
     }
-
+.hover-page:hover{
+    background: linear-gradient(to bottom, #5DC9F0, #0080BE);
+}
     .icon {
         margin-right: 25px;
     }
-
+    .next-left{
+        top: 117px;
+    }
     /* header */
     .logo {
         position: absolute;
